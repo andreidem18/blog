@@ -1,0 +1,130 @@
+* {
+  color: #e7e9ea;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+}
+
+nav {
+  border-bottom: 1px solid #2f3336;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+main.container {
+  border: 1px solid #2f3336;
+  border-top: 0;
+  border-bottom: 0;
+  padding: 15px 0 15px;
+}
+
+
+.post {
+  display: flex;
+  gap: 10px;
+  padding: 25px 25px;
+  border-bottom: 1px solid #2f3336;
+}
+
+.post .profile-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.post .post-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post .post-content .post-header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.post .post-content .post-header .user-name {
+  font-weight: 700;
+  cursor: pointer;
+}
+.post .post-content .post-header .user-name .verified-check{
+  color: #1d9bf0;
+  font-size: 15px;
+}
+
+.post .post-content .post-header .user-tag {
+  color: #71767b;
+}
+
+.post .post-content .post-header .separator {
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: #71767b;
+}
+
+.post .post-content .post-header .date {
+  color: #71767b;
+}
+
+.post .post-content .post-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.post .post-content .post-photo {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post .post-content .post-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post .post-content .post-footer .post-footer-item {
+  color: #71767b;
+  font-size: 13px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.post .post-content .post-footer .post-footer-item:hover {
+  color: #1d9bf0;
+}
+
+.post .post-content .post-footer .post-footer-item i {
+  color: inherit;
+  font-size: 16px;
+}
+
+.post .post-content .post-footer .post-footer-item.save-and-share {
+  display: flex;
+  gap: 17px;
+}
+
+.post .post-content .post-comments .comments-title {
+  color: #71767b;
+  font-size: 14px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post .post-content .post-comments .comments-title .separator {
+  height: 1px;
+  background: #2f3336;
+  flex: 1;
+}
